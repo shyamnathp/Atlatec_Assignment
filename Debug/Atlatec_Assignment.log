@@ -1,0 +1,17 @@
+﻿  Main.cpp
+e:\atlatec_assignment\atlatec_assignment\vector.h(117): warning C4018: '<': signed/unsigned mismatch
+  e:\atlatec_assignment\atlatec_assignment\main.cpp(38): note: see reference to function template instantiation 'void Vector<int,void>::Multiply<int>(const Matrix<int,void> &)' being compiled
+  e:\atlatec_assignment\atlatec_assignment\main.cpp(38): note: see reference to function template instantiation 'void Vector<int,void>::Multiply<int>(const Matrix<int,void> &)' being compiled
+d:\visual studio\vc\tools\msvc\14.15.26726\include\algorithm(1443): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  e:\atlatec_assignment\atlatec_assignment\vector.h(72): note: see reference to function template instantiation '_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,Vector<int,void>::Multiply::<lambda_5269e1368210067a9a6044e5027aeeb4>>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Fn=Vector<int,void>::Multiply::<lambda_5269e1368210067a9a6044e5027aeeb4>
+          ]
+  e:\atlatec_assignment\atlatec_assignment\vector.h(68): note: while compiling class template member function 'void Vector<int,void>::Multiply(double)'
+  e:\atlatec_assignment\atlatec_assignment\main.cpp(28): note: see reference to function template instantiation 'void Vector<int,void>::Multiply(double)' being compiled
+  e:\atlatec_assignment\atlatec_assignment\main.cpp(18): note: see reference to class template instantiation 'Vector<int,void>' being compiled
+  Atlatec_Assignment.vcxproj -> E:\Atlatec_Assignment\Debug\Atlatec_Assignment.exe
